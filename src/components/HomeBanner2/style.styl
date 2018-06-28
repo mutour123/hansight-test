@@ -1,0 +1,40 @@
+
+/*第二个banner*/
+.second-banner{
+  height: 900px;
+  background-size: cover;
+  background-position-x: right;
+  //background-image: url("./image/中间.png");
+  display: flex;
+  align-items: center;
+}
+.second-banner-left{
+  width: 500px;
+  padding: 20px;
+  padding-left: 200px;
+  color: #4A4A4A;
+}
+@media screen and (max-width: 1400px) {
+  .second-banner-left{
+    margin-top: -400px;
+  }
+}
+.second-banner-left>h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.second-banner-left p{
+  font-size: 20px;
+  margin:0;
+  line-height: 30px;
+}
+.second-banner-left p:last-child{
+  margin-bottom: 40px;
+}
+.second-banner-btn{
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #54C2F0;
+  cursor: pointer;
+  color: white;
+}

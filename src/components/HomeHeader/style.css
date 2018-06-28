@@ -1,0 +1,64 @@
+.head-banner {
+  height: 100vh;
+  background-size: contain;
+  background-size: cover;
+  background-position: 50% 98%;
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 40px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+header>.logo {
+  height: 80px;
+  cursor: pointer;
+}
+header>ul {
+  display: inline-block;
+  overflow: hidden;
+}
+header>ul>li {
+  line-height: 56px;
+  font-size: 20px;
+  cursor: pointer;
+  padding-right: 40px;
+  float: left;
+}
+.request-a-demo-btn {
+  font-size: 18px;
+  border: 1px solid #fff;
+  padding: 0px 20px;
+  line-height: 40px;
+  cursor: pointer;
+  height: 40px;
+  display: inline-block;
+}
+.head-banner-text {
+  padding-top: 60px;
+  text-align: center;
+}
+.henxian {
+  letter-spacing: 0;
+  margin: 0 5px;
+}
+.head-banner-text>h1 {
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+.head-banner-text>p {
+  font-size: 26px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.know-more {
+  font-size: 18px;
+  padding: 6px 30px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}

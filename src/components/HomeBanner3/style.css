@@ -1,0 +1,31 @@
+/*第三个banner*/
+.three-banner > ul {
+  background-color: #4a4a4a;
+  height: 900px;
+  display: flex;
+}
+.three-banner > ul >li {
+/*border: 1px slateblue solid;*/
+  flex-grow: 1;
+  text-align: center;
+}
+.three-banner > ul >li>div {
+  padding-top: 200px;
+  background-color: rgba(88,88,88,0.4);
+  height: 100%;
+  color: #fff;
+}
+.three-banner > ul >li>div>p {
+  width: 240px;
+  font-size: 18px;
+  margin: auto;
+  display: none;
+}
+/*.three-banner > ul >li>div:hover{
+    background-color: rgba(84,194, 240, 0.8);
+    padding-top: 100px;
+}*/
+.three-banner > ul >li>div>h3 {
+  margin-top: 60px;
+  font-size: 28px;
+}

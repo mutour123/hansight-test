@@ -1,0 +1,43 @@
+/*第五个banner*/
+.five-banner {
+  overflow: hidden;
+  height: 750px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  color: #fff;
+}
+.five-banner-text {
+  height: 550px;
+  width: 800px;
+  margin-left: 200px;
+  margin-top: 120px;
+}
+.five-banner-text>h2 {
+  font-family: 'PingFangSC-Medium';
+  line-height: 40px;
+  font-size: 28px;
+}
+.five-banner-text>p {
+  letter-spacing: 2px;
+  position: relative;
+  font-size: 18px;
+  padding: 10px 10px 50px 30px;
+  border-left: 2px solid #52c3f1;
+}
+.five-banner-text>p>.someone {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+.five-banner-text>.lean-more {
+  background-color: #fff;
+  font-size: 18px;
+  margin-top: 25px;
+  display: inline-block;
+  color: #54c2f0;
+  padding: 10px 40px;
+}
+.fontfamily {
+  font-family: '宋体';
+}
